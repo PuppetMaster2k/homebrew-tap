@@ -2,19 +2,19 @@
 class Apeirogon < Formula
   desc "Share a keyboard, mouse and clipboard across machines"
   homepage "https://github.com/PuppetMaster2k/apeirogon"
-  version "0.39.1"
+  version "0.40.0"
   license "GPL-3.0-or-later"
 
   on_macos do
     depends_on arch: :arm64
-    url "https://github.com/PuppetMaster2k/apeirogon/releases/download/v0.39.1/apeirogon-v0.39.1-aarch64-apple-darwin.tar.gz"
-    sha256 "55f3f6c741e2e55531efb24c2b9a0c3ad3928bcba76f46c1b7ef090a62dc7b5c"
+    url "https://github.com/PuppetMaster2k/apeirogon/releases/download/v0.40.0/apeirogon-v0.40.0-aarch64-apple-darwin.tar.gz"
+    sha256 "319fdaf3676ef3c8a86c54d59f1752de48863a319d3ab25b8eb2e8e5ea29b0ec"
   end
 
   on_linux do
     depends_on arch: :x86_64
-    url "https://github.com/PuppetMaster2k/apeirogon/releases/download/v0.39.1/apeirogon-v0.39.1-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "61a0595b932ba61a4b294c4affe3ee0b36b9a180de39bdf089cfc0c576a6df82"
+    url "https://github.com/PuppetMaster2k/apeirogon/releases/download/v0.40.0/apeirogon-v0.40.0-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "bef305911d9dad89fbb7aef17a2864284dd989787c6fe17b3eecc9665a623d72"
   end
 
   def install
